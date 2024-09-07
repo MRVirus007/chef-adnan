@@ -1,28 +1,7 @@
 body {
-  font-family: "Arial", sans-serif;
-  color: #333;
-}
-
-.text-container {
-  border-left: 3px solid #ffcc33;
-  padding-left: 15px;
-  font-weight: bold;
-  margin-top: 50px;
-}
-
-.text-container h1 {
-  line-height: 1.2;
-  font-size: 3rem;
-}
-
-.text-highlight {
-  color: #ffcc33;
-}
-
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: #000;
 }
 
 .oval-img-container {
@@ -44,6 +23,7 @@ body {
   position: relative;
   padding: 10px 15px;
   font-size: 16px;
+  color: #000;
 }
 
 .navbar-nav .nav-link:hover::after {
@@ -62,6 +42,10 @@ body {
   color: #f0c13a;
 }
 
+.l-1-2 {
+  line-height: 105px;
+}
+
 @media (max-width: 992px) {
   .content {
     flex-direction: column;
@@ -73,4 +57,41 @@ body {
     height: auto;
     border-radius: 50%;
   }
+}
+
+#next-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#next-section p {
+  font-size: 1.2rem;
+}
+
+.dessert-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.dessert-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dessert-item .price {
+  font-size: 1.2rem;
+  color: #ffc107;
+}
+
+.btn-warning {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-warning i {
+  font-size: 1.5rem;
 }
