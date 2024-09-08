@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Borsok";
+  src: url("fonts/boorsok.otf") format("opentype");
+}
+
 body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
@@ -19,6 +24,14 @@ body {
   object-fit: cover;
 }
 
+.navbar-brand {
+  font-family: "Borsok", sans-serif;
+}
+
+.text-logo-color {
+  color: #996852;
+}
+
 .navbar-nav .nav-link {
   position: relative;
   padding: 10px 15px;
@@ -38,8 +51,9 @@ body {
   border-radius: 50%;
 }
 
+.nav-link.active,
 .nav-link:hover {
-  color: #f0c13a;
+  color: #f0c13a !important;
 }
 
 .l-1-2 {
@@ -59,12 +73,12 @@ body {
   }
 }
 
-#next-section h2 {
+#menu-section h2 {
   font-size: 2.5rem;
   font-weight: bold;
 }
 
-#next-section p {
+#menu-section p {
   font-size: 1.2rem;
 }
 
@@ -81,17 +95,4 @@ body {
 
 .dessert-item .price {
   font-size: 1.2rem;
-  color: #ffc107;
-}
-
-.btn-warning {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.btn-warning i {
-  font-size: 1.5rem;
 }
