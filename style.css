@@ -96,3 +96,11 @@ body {
 .dessert-item .price {
   font-size: 1.2rem;
 }
+
+.bg-yellow {
+  background-color: #fad234;
+}
+
+.bg-white {
+  background-color: #fff;
+}
