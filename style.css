@@ -109,6 +109,12 @@ footer {
   margin-top: 20%;
 }
 
+@media (max-width: 768px) {
+  .child-footer {
+    margin: 0;
+  }
+}
+
 @media (max-width: 992px) {
   .content {
     flex-direction: column;
@@ -123,11 +129,5 @@ footer {
     margin-top: 30px;
     width: 90%;
     height: auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .child-footer {
-    margin: 0;
   }
 }
